@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background: rgb(204, 204, 204);
+            width: 21cm;
+            height: 29.7cm;
+            margin: 0 auto;
+            font-family: 'Roboto', sans-serif; /* Apply Roboto here */
+        }
+
+        page {
+            background: white;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.5cm;
+            position: relative;
+        }
+
+        page[size="A4"] {
+            width: 21cm;
+            height: 29.7cm;
+            border: 1px solid blueviolet;
+        }
+
+        @page {
+            size: 21cm 29.7cm;
+            margin: 0mm;
+        }
+
+        body,
+        page {
+            font-family: 'Roboto', sans-serif; /* Use Roboto globally */
+        }
+
+        :root {
+            --primary-color: #272829;
+            --secondary-color: #509cf1;
+        }
+
+        footer {
+            width: 100%;
+            height: 4.25cm;
+            background-color: transparent;
+            position: relative;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        footer .foot-front {
+            width: 100%;
+            height: 100%;
+        }
+
+        footer .foot-front .left {
+            width: 17cm;
+            height: 5cm;
+            z-index: 1;
+            transform: rotate(7deg);
+            background-color: var(--primary-color);
+            box-shadow: 0 0 0.317 cm -0.105 cm #000;
+            position: absolute;
+            bottom: -2.40cm;
+            left: -2cm;
+        }
+
+        footer .foot-front .right {
+            width: 10cm;
+            height: 5cm;
+            z-index: 2;
+            transform: rotate(28deg);
+            background-color: var(--primary-color);
+            position: absolute;
+            bottom: -5.51cm;
+            left: 13.48cm;
+        }
+
+        footer .foot-back {
+            width: 100%;
+            height: 5.385cm;
+            z-index: 1;
+            transform: rotate(-16deg);
+            background-color: var(--secondary-color);
+            position: absolute;
+            bottom: -4cm;
+            left: 1.452cm;
+        }
+
+        .work-experience>ul>li ul {
+            padding-left: 0.5cm;
+            list-style-type: disc;
+        }
+
+        .work-experience>ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .work-experience>ul>li {
+            position: relative;
+            margin: 0;
+            padding-bottom: 0.2cm;
+            padding-left: 0.5cm;
+        }
+
+        .work-experience>ul>li:before {
+            background-color: var(--primary-color);
+            width: 0.025cm;
+            content: '';
+            position: absolute;
+            top: 0.15cm;
+            bottom: -0.2cm;
+            transform: translatex(-50%);
+            left: 0cm;
+            margin-left: 0.15cm;
+        }
+
+        .work-experience>ul>li::after {
+            content: '';
+            position: absolute;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' viewBox='0 0 32 32' focusable='false'%3E%3Ccircle stroke='none' fill='var(--primary-color)' cx='16' cy='16' r='10'%3E%3C/circle%3E%3C/svg%3E");
+            transform: translatex(-50%);
+            top: 0;
+            left: 0;
+            width: 0.35cm;
+            height: 0.35cm;
+            margin-left: 0.15cm;
+        }
+
+        .work-experience>ul>li .experience-header {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            line-height: 0.35cm;
+            font-size: 0.35cm;
+            margin-bottom: 0.1cm;
+        }
+        .work-experience>ul>li .experience-body {
+            font-size: 0.2cm;
+        }
+
+        .right-column {
+            background-color: var(--primary-color);
+            height: 100%;
+            width: 24%;
+        }
+
+        .left-column {
+            background-color: transparent;
+            height: 100%;
+            margin-left: 0.25cm;
+            margin-right: 0.25cm;
+            width: 76%;
+        }
+
+        .cv-body {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif; /* Apply Roboto to h1 */
+            font-weight: 300;
+            font-size: 1.2cm;
+            transform: scale(1, 1.15);
+            margin-bottom: 0.2cm;
+            margin-top: 0.2cm;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-family: 'Roboto', sans-serif; /* Apply Roboto to h3 */
+            padding-left: 0.3cm;
+        }
+
+        .small-text {
+            font-size: 0.45cm;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
+        rel="stylesheet"> <!-- Added Roboto font link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <page size="A4">
+        <div class="container-fluid" style="height: 100%; padding: 0;">
+            <!-- Your content here -->
+            <div class="cv-body">
+                <div class="left-column">
+                    <div>
+                        <h1>Dawson Horvath</h1>
+                        <h3 class="small-text fw-bold">Engineering Physicist</h3>
+                    </div>
+                    <!-- Column 1 content here -->
+                    <div class="work-experience">
+                        <ul>
+                            <li>
+                                <div class="experience-header">
+                                    <span class="fw-bold">
+                                        Accountant
+                                    </span>
+                                    <span>
+                                        Jun 2014 - Sept 2015
+                                    </span>
+                                </div>
+                                <div class="experience-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula, nunc at varius
+                                    tincidunt,
+                                    libero justo cursus libero, non tincidunt arcu risus non libero. Curabitur ac felis nec
+                                    erat tincidunt
+                                    tincidunt. Sed sit amet sapien nec justo vehicula tincidunt. Integer nec odio nec urna
+                                    fermentum tincidunt.
+                                    Donec ac libero nec nulla tincidunt tincidunt. Nulla facilisi. Donec ac libero nec nulla
+                                    tincidunt tincidunt. 
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <!-- Column 2 content here -->
+                </div>
+            </div>
+            <footer style="position: absolute; bottom: 0; width: 100%;">
+                <div class="foot-back"></div>
+                <div class="foot-front">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+            </footer>
+        </div>
+    </page>
+</body>
+
+</html>
