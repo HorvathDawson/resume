@@ -1,0 +1,9 @@
+# Ignore Sass cache files
+.sass-cache/
+
+# Ignore compiled CSS files
+*.css
+*.css.map
+
+# Ignore node_modules directory
+node_modules/
