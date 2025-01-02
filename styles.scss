@@ -1,17 +1,15 @@
 $font-size-h1: 0.85cm;
 $font-size-h2: 0.5cm;
 $font-size-h3: 0.35cm;
-$font-size-experience-body: 0.3cm;
-$font-size-education: 0.315cm;
-$font-size-small: 0.27cm;
-$font-size-tag: 0.3cm;
-$margin: 0.5cm;
+$font-size-experience-body: 0.35cm;
+$font-size-small: 0.315cm;
+$margin: 1cm;
 
 :root {
     // 2d112b
     --main-text-color: #272829;
-    --left-column-color: #272829;
-    --highlight-color: #7038cf;
+    --left-column-color: #7d7c7a;
+    --highlight-color: #86deb7;
     --right-column-color: white;
 }
 
@@ -53,7 +51,7 @@ page {
     padding-right: 0.25cm;
     padding-left: $margin;
     padding-top: $margin;
-    width: 26%;
+    width: 30%;
 }
 
 .right-column {
@@ -63,7 +61,7 @@ page {
     padding-top: $margin;
     padding-left: 0.25cm;
     padding-right: $margin;
-    width: 74%;
+    width: 70%;
 }
 
 .cv-body {
@@ -149,13 +147,13 @@ h3 {
     margin: 0;
     overflow: hidden;
     font-size: $font-size-experience-body;
-    line-height: 0.4cm;
+    line-height: calc(#{$font-size-experience-body} *1.15);
     color: var(--right-column-color);
     vertical-align: middle;
 }
 
 .summary {
-    font-size: $font-size-small;
+    font-size: $font-size-experience-body;
     margin: 0;
     margin-left: 0.25cm;
     margin-bottom: 0.25cm;
@@ -250,13 +248,6 @@ h3 {
     margin: 0;
 }
 
-.education-item > h3 {
-    margin: 0 !important;
-    padding: 0 !important;
-    font-size: $font-size-education;
-    margin-bottom: 0.1cm;
-}
-
 .small-text {
     font-size: $font-size-small;
     opacity: 0.7;
@@ -304,7 +295,7 @@ footer .foot-front .left {
     background-color: var(--highlight-color);
     box-shadow: 0 0 0.317 cm -0.105 cm #000;
     position: absolute;
-    bottom: -2.40cm;
+    bottom: -2.90cm;
     left: -2cm;
 }
 
@@ -315,7 +306,7 @@ footer .foot-front .right {
     transform: rotate(28deg);
     background-color: var(--highlight-color);
     position: absolute;
-    bottom: -5.51cm;
+    bottom: -6.01cm;
     left: 13.48cm;
 }
 
