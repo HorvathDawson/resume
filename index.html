@@ -1,199 +1,517 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
-        rel="stylesheet"> <!-- Added Roboto font link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com"
+            crossorigin="anonymous">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet">
+        <!-- Added Roboto font link -->
 
-</head>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
 
-<body>
-    <page size="A4">
-        <div class="container-fluid" style="height: 100%; padding: 0;">
-            <!-- Your content here -->
-            <div class="cv-body">
-                <div class="left-column">
-                    <div class="shadow-sm">
-                        <h1>Dawson Horvath</h1>
+    </head>
+
+    <body>
+        <page size="A4">
+            <div class="container-fluid" style="height: 100%; padding: 0;">
+                <!-- Your content here -->
+                <div class="cv-body">
+
+                    <div class="left-column">
+                        <div class="name">
+                            <h1>Dawson Horvath</h1>
+                        </div>
+                        <div class="contact-info">
+
+                            <ul>
+                                <li class="contact">
+                                    <div class="icons">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <div class="words">
+                                        dawsonhorvath.com
+                                    </div>
+                                </li>
+                                <li class="contact">
+                                    <div class="icons">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="words">
+                                        Vancouver, BC
+                                    </div>
+                                </li>
+                                <li class="contact">
+                                    <div class="icons">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="words">
+                                        horvath.dawson@gmail.com
+                                    </div>
+                                </li>
+                                <li class="contact">
+                                    <div class="icons">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="words">
+                                        1-250-306-0343
+                                    </div>
+                                </li>
+                                <li class="contact">
+                                    <div class="icons">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="words">
+                                        /HorvathDawson
+                                    </div>
+                                </li>
+                                <li class="contact">
+                                    <div class="icons">
+                                        <i class="fab fa-linkedin"></i>
+                                    </div>
+                                    <div class="words">
+                                        /horvathdawson
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="section">
+                            <h2>Education</h2>
+                            <div class="education-item">
+                                <h3>B.ASc., Engineering Physics</h3>
+                                <p class="small-text">
+                                    <i class="fa fa-map-marker"></i> University
+                                    of British Columbia <br>
+                                    <i class="fa fa-calendar"></i> 2018 — 2022
+                                    <br>
+                                    GPA: 3.7/4.0
+                                </p>
+                            </div>
+                            <div class="education-item">
+                                <h3>Engineering Transfer Program</h3>
+                                <p class="small-text">
+                                    <i class="fa fa-map-marker"></i> Thompson
+                                    Rivers University <br>
+                                    <i class="fa fa-calendar"></i> 2017 — 2018
+                                    <br>
+                                    GPA: 4.0/4.0
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <h2>Skills</h2>
+                        
+                            <div class="subsection">
+                                <h3>Software Development</h3>
+                                <div class="tags">
+                                    <span class="cvtag">Python</span>
+                                    <span class="cvtag">LabVIEW</span>
+                                    <span class="cvtag">C++</span>
+                                    <span class="cvtag">Go</span>
+                                    <span class="cvtag">JavaScript</span>
+                                    <span class="cvtag">MATLAB</span>
+                                    <span class="cvtag">SQLite</span>
+                                    <span class="cvtag">Git</span>
+                                    <span class="cvtag">Linux</span>
+                                    <span class="cvtag">PyTorch</span>
+                                    <span class="cvtag">OpenCV</span>
+                                    <span class="cvtag">Machine Learning</span>
+                                    <span class="cvtag">Computer Vision</span>
+                                    <span class="cvtag">Data Analysis</span>
+                                </div>
+                            </div>
+                        
+                            <div class="subsection">
+                                <h3>Hardware & Prototyping</h3>
+                                <div class="tags">
+                                    <span class="cvtag">Circuit Design</span>
+                                    <span class="cvtag">Arduino</span>
+                                    <span class="cvtag">SolidWorks</span>
+                                    <span class="cvtag">Onshape</span>
+                                    <span class="cvtag">Prototyping</span>
+                                    <span class="cvtag">PCB Design</span>
+                                    <span class="cvtag">Sensor Integration</span>
+                                    <span class="cvtag">Embedded Systems</span>
+                                </div>
+                            </div>
+                        
+                            <div class="subsection">
+                                <h3>Fabrication & Hands-On</h3>
+                                <div class="tags">
+                                    <span class="cvtag">Machining</span>
+                                    <span class="cvtag">Soldering</span>
+                                    <span class="cvtag">Welding</span>
+                                    <span class="cvtag">3D Printing</span>
+                                    <span class="cvtag">Laser Cutting</span>
+                                    <span class="cvtag">Waterjet Cutting</span>
+                                    <span class="cvtag">CNC Operation</span>
+                                    <span class="cvtag">Mechanical Assembly</span>
+                                </div>
+                            </div>
+                        
+                            <div class="subsection">
+                                <h3>Design & Media</h3>
+                                <div class="tags">
+                                    <span class="cvtag">Web Development</span>
+                                    <span class="cvtag">HTML</span>
+                                    <span class="cvtag">CSS</span>
+                                    <span class="cvtag">Photoshop</span>
+                                    <span class="cvtag">LaTeX</span>
+                                    <span class="cvtag">UI/UX Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+
                     </div>
-                    <!-- Column 1 content here -->
-                    <div class="section experience">
-                        <h2>Work Experience</h2>
-                        <ul>
-                            <li>
-                                <div class="experience-header">
-                                    <div class="first-row">
-                                        <div class="fw-bold">AbCellera Biologics Inc</div>
-                                        <span>Mechatronics Engineer</span>
-                                    </div>
-                                    <div class="second-row"><i class="fa fa-calendar"></i> May 2020 - Current</div>
-                                </div>
-                                <div class="experience-body">
-                                    Developing robots to push the boundaries of high-throughput single-cell screening for antibody discovery.
-                                </div>
-                            </li>
-                            <li>
-                                <div class="experience-header">
-                                    <div class="first-row">
-                                        <div class="fw-bold">TRIUMF Particle Accelerator</div>
-                                        <span>SRF Development Intern</span>
-                                    </div>
-                                    <div class="second-row"><i class="fa fa-calendar"></i> September 2018 - Current</div>
-                                </div>
-                                <div class="experience-body">
-                                    <ul>
-                                        <li>
-                                            Led the design and implementation of a UHV induction furnace, enabling doping of niobium superconductors with gas compounds and removal of hydrides. Achieved a 10x improvement in the SRF cavity quench limit.
-                                        </li>
-                                        <li>
-                                            Developed an advanced magnetic field controller that integrates a 3-axis fluxgate magnetometer to dynamically adjust electromagnet currents, effectively neutralizing the Earth's ambient magnetic field.
-                                        </li>
-                                        <li>
-                                            Contributed to the maintenance and reassembly of cryostats in ultra-clean environments (Class 1000, 100, and 10 cleanrooms), ensuring optimal performance for precision applications.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="experience-header">
-                                    <div class="first-row">
-                                        <div class="fw-bold">Streamline Transportation Technology</div>
-                                        <span>Fullstack Developer</span>
-                                    </div>
-                                    <div class="second-row"><i class="fa fa-calendar"></i> April 2018 - September 2018</div>
-                                </div>
-                                <div class="experience-body">
-                                    <ul>
-                                        <li>
-                                            Designed and implemented a full-stack web application using Node.js and AngularJS, automating previously manual workflows and significantly improving operational efficiency.
-                                        </li>
-                                        <li>
-                                            Enhanced the QA automation framework by completing Protractor scripts and extending helper classes, leading to more robust and efficient automated testing processes.
-                                        </li>
-                                        <li>
-                                            Collaborated closely with team members to identify and resolve technical challenges in the company’s flagship product, ensuring smoother performance and higher reliability.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="section experience">
-                        <h2>Projects</h2>
-                        <ul>
-                            <li>
-                                <div class="experience-header">
-                                    <div class="first-row">
-                                        <div class="fw-bold">1950 Austin A-40 Restoration</div>
-                                        <span>Personal</span>
-                                    </div>
-                                    <div class="second-row"><i class="fa fa-calendar"></i> 2019-Present</div>
-                                </div>
-                                <div class="experience-body">
-                                    <ul>
-                                        <li>
-                                            Overhauling the vehicle with ongoing welding, fabrication, and engine repairs to restore full functionality.
-                                        </li>
-                                        <li>
-                                            Utilizing mechanical, electrical, and bodywork expertise to ensure a successful restoration.
-                                        </li>
-                                        <li>
-                                            Replacing outdated parts with modern components, including upgrades to suspension, braking systems, and electrical systems for enhanced performance and safety, while maintaining the car’s classic aesthetic.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="experience-header">
-                                    <div class="first-row">
-                                        <div class="fw-bold">Open Sim2Real Project</div>
-                                        <span>Open Source</span>
-                                    </div>
-                                    <div class="second-row">
-                                        <i class="fa fa-calendar"></i> 2022 - <i class="fa fa-globe"></i><a href="https://opensim2real.github.io/os2r-superbuild/docs/index.html">Details</a>
-                                    </div>
-                                </div>
-                                <div class="experience-body">
-                                    <ul>
-                                        <li>
-                                            Developed an open-source platform for Sim2Real research featuring a low-cost single-leg physical robot and corresponding simulation.
-                                        </li>
-                                        <li>
-                                            Enabled training in both real and simulated environments using the gym framework.
-                                        </li>
-                                        <li>
-                                            Provided low-level drivers for the physical robot, gym-os2r simulation, and a real-time backend linking simulation and real components.
-                                        </li>
-                                        <li>
-                                            Made Sim2Real research more accessible for research groups transitioning from simulation to real-world applications.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="experience-header">
-                                    <div class="first-row">
-                                        <div class="fw-bold">Robot Design Competition 
+                    <div class="right-column">
+                        <!-- Column 1 content here -->
+                        <div class="section experience">
+                            <h2>Work Experience</h2>
+                            <ul>
+                                <li>
+                                    <div class="experience-header">
+                                        <div class="first-row">
+                                            <div class="fw-bold">
+                                                AbCellera
+                                                Biologics Inc
+                                            </div>
+                                            <span>Mechatronics Engineer</span>
                                         </div>
-                                        <span>School</span>
-                                    </div>
-                                    <div class="second-row">
-                                        <div>
-                                            <i class="fa fa-calendar"></i>2019 - <i class="fa fa-globe"></i><a href="https://horvathdawson.github.io/253Robot.html">Details</a>
+                                        <div class="second-row"><i `
+                                                class="fa fa-calendar"></i>
+                                            May
+                                            2020 - Current
                                         </div>
                                     </div>
-                                </div>
-                                <div class="experience-body">
-                                    <ul>
-                                        <li>
-                                            Worked with a small team to engineer a fully autonomous robot.
-                                        </li>
-                                        <li>
-                                            Implemented mechanical and electrical design to develop reliable instruments and robot kinematics.
-                                        </li>
-                                        <li>
-                                            Followed a rigorous review process with extensive engineering communication expectations.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="experience-header">
-                                    <div class="first-row">
-                                        <div class="fw-bold">Simulated Gazebo Robot</div>
-                                        <span>School</span>
+                                    <div class="experience-body">
+                                        <ul>
+                                            <li>
+                                                Built a real-time fleet
+                                                management dashboard using Go,
+                                                SQLite, HTML, CSS, and
+                                                JavaScript to monitor robot
+                                                metrics, environmental data, and
+                                                experiment progress. Integrated
+                                                a unified data schema and
+                                                visualized recovered cell
+                                                locations to improve cross-team
+                                                collaboration.
+                                            </li>
+                                            <li>
+                                                Increased recovery speed by 3x
+                                                by transitioning liquid handling
+                                                from open-loop to calibrated
+                                                closed-loop control, leveraging
+                                                vision-based measurements to
+                                                ensure accuracy and maintain
+                                                high cell viability.
+                                            </li>
+                                            <li>
+                                                Designed and implemented image
+                                                processing pipelines with
+                                                Python, C++, and LabVIEW,
+                                                featuring meniscus detection in
+                                                micro-capillaries,
+                                                multi-exposure HDR, flat-field
+                                                correction, and more, enhancing
+                                                screening performance.
+                                            </li>
+                                            <li>
+                                                Engineered a custom schlieren
+                                                imaging system using a
+                                                lenticular lens array, inspired
+                                                by
+                                                "Hand-Held Schlieren Photography with Light Field Probes,"
+                                                to capture transparent media
+                                                refractions with commodity
+                                                hardware.
+                                            </li>
+                                            <li>
+                                                Delivered new single-cell
+                                                recovery instrument control
+                                                software in LabVIEW and Python,
+                                                incorporating robot routines,
+                                                state machine logic, operator
+                                                UIs, and imaging pipelines.
+                                                Completed the project three
+                                                weeks ahead of a critical demo
+                                                day.
+                                            </li>
+                                            <li>
+                                                Developed a monitoring tool to
+                                                verify past recovery states,
+                                                enable retries for failed
+                                                recoveries, and reduce potential
+                                                cell loss by up to 50%.
+                                                Automated data consolidation
+                                                into a single PDF report with
+                                                machine learning summaries for
+                                                troubleshooting and
+                                                communication.
+                                            </li>
+                                            <li>
+                                                Manufactured PDMS microfluidic
+                                                devices in a Class 1000
+                                                cleanroom, critical for
+                                                high-throughput single-cell
+                                                screening. Conducted
+                                                photolithography, mold
+                                                preparation, and device assembly
+                                                to ensure precision and
+                                                reliability in biological
+                                                assays.
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <div class="second-row">
-                                        <i class="fa fa-calendar"></i>2019 - <i class="fa fa-globe"></i><a href="https://horvathdawson.github.io/353Robot.html">Details</a>
+                                </li>
+                                <li>
+                                    <div class="experience-header">
+                                        <div class="first-row">
+                                            <div class="fw-bold">TRIUMF Particle
+                                                Accelerator</div>
+                                            <span>SRF Development Intern</span>
+                                        </div>
+                                        <div class="second-row"><i
+                                                class="fa fa-calendar"></i>
+                                            January 2019 - May 2019</div>
                                     </div>
-                                </div>
-                                <div class="experience-body">
-                                    <ul>
-                                        <li>
-                                            Simulated an autonomous robot in a Gazebo environment.
-                                        </li>
-                                        <li>
-                                            Controlled the robot using machine learning and computer vision techniques to complete a set of tasks.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
+                                    <div class="experience-body">
+                                        <ul>
+                                            <li>
+                                                Led the design and
+                                                implementation of a UHV
+                                                induction furnace, enabling
+                                                doping of niobium
+                                                superconductors with gas
+                                                compounds and removal of
+                                                hydrides. Achieved a 10x
+                                                improvement in the SRF cavity
+                                                quench limit.
+                                            </li>
+                                            <li>
+                                                Developed an advanced magnetic
+                                                field controller that integrates
+                                                a 3-axis fluxgate magnetometer
+                                                to dynamically adjust
+                                                electromagnet currents,
+                                                effectively neutralizing the
+                                                Earth's ambient magnetic field.
+                                            </li>
+                                            <li>
+                                                Contributed to the maintenance
+                                                and reassembly of cryostats in
+                                                ultra-clean environments (Class
+                                                1000, 100, and 10 cleanrooms),
+                                                ensuring optimal performance for
+                                                precision applications.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="experience-header">
+                                        <div class="first-row">
+                                            <div class="fw-bold">Streamline
+                                                Transportation Technology</div>
+                                            <span>Fullstack Developer</span>
+                                        </div>
+                                        <div class="second-row"><i
+                                                class="fa fa-calendar"></i>
+                                            April 2018 - September 2018</div>
+                                    </div>
+                                    <div class="experience-body">
+                                        <ul>
+                                            <li>
+                                                Designed and implemented a
+                                                full-stack web application using
+                                                Node.js and AngularJS,
+                                                automating previously manual
+                                                workflows and significantly
+                                                improving operational
+                                                efficiency.
+                                            </li>
+                                            <li>
+                                                Enhanced the QA automation
+                                                framework by completing
+                                                Protractor scripts and extending
+                                                helper classes, leading to more
+                                                robust and efficient automated
+                                                testing processes.
+                                            </li>
+                                            <li>
+                                                Collaborated closely with team
+                                                members to identify and resolve
+                                                technical challenges in the
+                                                company’s flagship product,
+                                                ensuring smoother performance
+                                                and higher reliability.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="section experience">
+                            <h2>Projects</h2>
+                            <ul>
+                                <li>
+                                    <div class="experience-header">
+                                        <div class="first-row">
+                                            <div class="fw-bold">1950 Austin a40
+                                                Restoration</div>
+                                            <span>Personal</span>
+                                        </div>
+                                        <div class="second-row"><i
+                                                class="fa fa-calendar"></i> 2019
+                                            - Current</div>
+                                    </div>
+                                    <div class="experience-body">
+                                        <ul>
+                                            <li>
+                                                Overhauling the vehicle with
+                                                ongoing welding, fabrication,
+                                                and engine repairs to restore
+                                                full functionality.
+                                            </li>
+                                            <li>
+                                                Utilizing mechanical,
+                                                electrical, and bodywork
+                                                expertise to ensure a successful
+                                                restoration.
+                                            </li>
+                                            <li>
+                                                Replacing outdated parts with
+                                                modern components, including
+                                                upgrades to suspension, braking
+                                                systems, and electrical systems
+                                                for enhanced performance and
+                                                safety, while maintaining the
+                                                car’s classic aesthetic.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="experience-header">
+                                        <div class="first-row">
+                                            <div class="fw-bold">Open Sim2Real
+                                                Project</div>
+                                            <span>Open Source</span>
+                                        </div>
+                                        <div class="second-row">
+                                            <i class="fa fa-calendar"></i> 2022
+                                        </div>
+                                    </div>
+                                    <div class="experience-body">
+                                        <ul>
+                                            <li>
+                                                Developed an open-source
+                                                platform for Sim2Real research
+                                                featuring a low-cost single-leg
+                                                physical robot and corresponding
+                                                simulation.
+                                            </li>
+                                            <li>
+                                                Enabled training in both real
+                                                and simulated environments using
+                                                the gym framework.
+                                            </li>
+                                            <li>
+                                                Provided low-level drivers for
+                                                the physical robot, gym-os2r
+                                                simulation, and a real-time
+                                                backend linking simulation and
+                                                real components.
+                                            </li>
+                                            <li>
+                                                Made Sim2Real research more
+                                                accessible for research groups
+                                                transitioning from simulation to
+                                                real-world applications.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="experience-header">
+                                        <div class="first-row">
+                                            <div class="fw-bold">Simulated
+                                                Gazebo Robot</div>
+                                            <span>School</span>
+                                        </div>
+                                        <div class="second-row">
+                                            <i class="fa fa-calendar"></i>2019
+                                        </div>
+                                    </div>
+                                    <div class="experience-body">
+                                        <ul>
+                                            <li>
+                                                Simulated an autonomous robot in
+                                                a Gazebo environment.
+                                            </li>
+                                            <li>
+                                                Controlled the robot using
+                                                machine learning and computer
+                                                vision techniques to complete a
+                                                set of tasks.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="experience-header">
+                                        <div class="first-row">
+                                            <div class="fw-bold">Robot Design
+                                                Competition
+                                            </div>
+                                            <span>School</span>
+                                        </div>
+                                        <div class="second-row">
+                                            <div>
+                                                <i
+                                                    class="fa fa-calendar"></i>2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="experience-body">
+                                        <ul>
+                                            <li>
+                                                Worked with a small team to
+                                                engineer a fully autonomous
+                                                robot.
+                                            </li>
+                                            <li>
+                                                Implemented mechanical and
+                                                electrical design to develop
+                                                reliable instruments and robot
+                                                kinematics.
+                                            </li>
+                                            <li>
+                                                Followed a rigorous review
+                                                process with extensive
+                                                engineering communication
+                                                expectations.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
                                 <div class="experience-header">
                                     <div class="first-row">
                                         <div class="fw-bold">DIY Electric Skateboard</div>
                                         <span>Personal</span>
                                     </div>
                                     <div class="second-row">
-                                        <i class="fa fa-calendar"></i>2017 - <i class="fa fa-globe"></i><a href="https://horvathdawson.github.io/esk8.html">Details</a>
+                                        <i class="fa fa-calendar"></i>2017
                                     </div>
                                 </div>
                                 <div class="experience-body">
@@ -206,15 +524,15 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
-                            <li>
+                            </li> 
+                                <li>
                                 <div class="experience-header">
                                     <div class="first-row">
                                         <div class="fw-bold">DIY 3D Printer</div>
                                         <span>Personal</span>
                                     </div>
                                     <div class="second-row">
-                                        <i class="fa fa-calendar"></i>2017 - <i class="fa fa-globe"></i><a href="https://horvathdawson.github.io/3dprinter.html">Details</a>
+                                        <i class="fa fa-calendar"></i>2017
                                     </div>
                                 </div>
                                 <div class="experience-body">
@@ -228,155 +546,73 @@
                                     </ul>
                                 </div>
                             </li>
-                            
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div class="foot-back"></div>
+                    <div class="foot-front">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                    <!-- <div class="foot-words">
+                        <h2>contact me</h2>
+                        <ul>
+                            <li class="contact">
+                                <div class="icons">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="words">
+                                    Vancouver, BC
+                                </div>
+                            </li>
+                            <li class="contact">
+                                <div class="icons">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="words">
+                                    horvath.dawson@gmail.com
+                                </div>
+                            </li>
+                            <li class="contact">
+                                <div class="icons">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="words">
+                                    1-250-306-0343
+                                </div>
+                            </li>
+                            <li class="contact">
+                                <div class="icons">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="words">
+                                    github.com/HorvathDawson
+                                </div>
+                            </li>
+                            <li class="contact">
+                                <div class="icons">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div class="words">
+                                    dawsonhorvath.com
+                                </div>
+                            </li>
+                            <li class="contact">
+                                <div class="icons">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="words">
+                                    /horvathdawson
+                                </div>
+                            </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="right-column text-white">
-                    <div class="section">
-                        <h2>Education</h2>
-                        <div class="education-item">
-                            <h3>B.ASc., Engineering Physics</h3>
-                            <p class="small-text">
-                                <i class="fa fa-map-marker"></i> University of British Columbia <br>
-                                <i class="fa fa-calendar"></i> 2018 — 2022 <br>
-                                GPA: 3.7/4.0
-                            </p>
-                        </div>
-                        <div class="education-item">
-                            <h3>Engineering Transfer Program</h3>
-                            <p class="small-text">
-                                <i class="fa fa-map-marker"></i> Thompson Rivers University <br>
-                                <i class="fa fa-calendar"></i> 2017 — 2018 <br>
-                                GPA: 4.0/4.0
-                            </p>
-                        </div>
-                    </div>
-                    <div class="section">
-                        <h2>Skills</h2>
-                        
-                        <div class="subsection">
-                            <h3>Development</h3>
-                            <div class="tags">
-                                <span class="cvtag">Python</span>
-                                <span class="cvtag">JAVA</span>
-                                <span class="cvtag">C++</span>
-                                <span class="cvtag">C</span>
-                                <span class="cvtag">MATLAB</span>
-                                <span class="cvtag">Arduino</span>
-                                <span class="cvtag">JavaScript</span>
-                                <span class="cvtag">pyTorch</span>
-                                <span class="cvtag">Git</span>
-                                <span class="cvtag">Gym Framework</span>
-                                <span class="cvtag">openCV</span>
-                                <span class="cvtag">Linux</span>
-                                <span class="cvtag">SQLite</span>
-                            </div>
-                        </div>
-                    
-                        <div class="subsection">
-                            <h3>Hardware</h3>
-                            <div class="tags">
-                                <span class="cvtag">Circuit design/prototyping</span>
-                                <span class="cvtag">SolidWorks</span>
-                                <span class="cvtag">Prototyping</span>
-                                <span class="cvtag">Digital logic</span>
-                                <span class="cvtag">Assembly</span>
-                                <span class="cvtag">PID control</span>
-                            </div>
-                        </div>
-                    
-                        <div class="subsection">
-                            <h3>Hands-on</h3>
-                            <div class="tags">
-                                <span class="cvtag">Machining</span>
-                                <span class="cvtag">Soldering</span>
-                                <span class="cvtag">Welding</span>
-                                <span class="cvtag">Clean room experience</span>
-                                <span class="cvtag">Hands on shop experience</span>
-                                <span class="cvtag">Engine and small engine repair</span>
-                                <span class="cvtag">3D printing</span>
-                                <span class="cvtag">Laser-cutting</span>
-                                <span class="cvtag">Water Jet-cutting</span>
-                            </div>
-                        </div>
-                    
-                        <div class="subsection">
-                            <h3>Design</h3>
-                            <div class="tags">
-                                <span class="cvtag">Web Design</span>
-                                <span class="cvtag">PhotoShop</span>
-                                <span class="cvtag">LaTeX</span>
-                                <span class="cvtag">HTML</span>
-                                <span class="cvtag">CSS</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
+                    </div> -->
+                </footer>
             </div>
-            <footer >
-                <div class="foot-back"></div>
-                <div class="foot-front">
-                    <div class="left"></div>
-                    <div class="right"></div>
-                </div>
-                <div class="foot-words">
-                    <h2>contact me</h2>
-                    <ul>
-                        <li class="contact">
-                            <div class="icons">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="words">
-                                Vancouver, BC
-                            </div>
-                        </li>
-                        <li class="contact">
-                            <div class="icons">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="words">
-                                horvath.dawson@gmail.com
-                            </div>
-                        </li>
-                        <li class="contact">
-                            <div class="icons">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="words">
-                                1-250-306-0343
-                            </div>
-                        </li>
-                        <li class="contact">
-                            <div class="icons">
-                                <i class="fab fa-github"></i>
-                            </div>
-                            <div class="words">
-                                github.com/HorvathDawson
-                            </div>
-                        </li>
-                        <li class="contact">
-                            <div class="icons">
-                                <i class="fas fa-globe"></i>
-                            </div>
-                            <div class="words">
-                                dawsonhorvath.com
-                            </div>
-                        </li>
-                        <li class="contact">
-                            <div class="icons">
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                            <div class="words">
-                                /horvathdawson
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </footer>
-        </div>
-    </page>
-</body>
+        </page>
+    </body>
 
 </html>
